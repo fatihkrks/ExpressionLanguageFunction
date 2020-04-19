@@ -1,0 +1,16 @@
+<taglib version="2.0"
+ xmlns="http://java.sun.com/xml/j2ee" 
+ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+ xsi:schemaLocation="http://java.sun.com/xml/ns/j2ee/web-jsptaglibrary_2_0.xsd">
+
+<uri>testUri</uri>
+<tlib-version>2.1</tlib-version>
+<function>
+<name>myFunction</name>
+<function-class>expressionLanguageFunction.ELfunction</function-class>
+<function-signature>
+
+int topla(int,int)
+</function-signature>
+</function>
+</taglib>
